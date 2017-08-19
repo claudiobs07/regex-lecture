@@ -1,0 +1,11 @@
+*.class
+
+*target/
+
+#ide
+.idea/
+*.iml
+.classpath
+.project
+.settings
+.metadata
