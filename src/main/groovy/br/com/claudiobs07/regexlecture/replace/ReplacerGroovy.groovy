@@ -1,9 +1,9 @@
-package br.blog.cbs.regex.replace
+package br.com.claudiobs07.regexlecture.replace
 
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
-class ReplaceRegex {
+class ReplacerGroovy implements IReplacer {
 
     String replace(String text, String replacement, String pattern) {
         Pattern p = Pattern.compile(pattern)

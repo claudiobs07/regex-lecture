@@ -1,8 +1,8 @@
-package br.blog.cbs.regex.match
+package br.com.claudiobs07.regexlecture.match
 
 import java.util.regex.Matcher
 
-class GroovyMatchRegex implements MatchRegex {
+class MatcherGroovy implements IMatcher {
 
     @Override
     Matcher simple(String text, String regex) {
