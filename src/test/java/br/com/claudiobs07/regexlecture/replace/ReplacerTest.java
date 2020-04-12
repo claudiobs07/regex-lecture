@@ -5,12 +5,12 @@ import org.junit.Test;
 
 public class ReplacerTest extends TestCase {
 
-    IReplacer replacer = new ReplacerGroovy();
+    IReplacer replacer = new ReplacerJava();
 
     @Test
     public void testReplace() {
-        String result = replacer.replace("", "", "");
-        assertEquals("", result);
+        String result = replacer.replace("I like apple", "pineapple", "ap{2}le");
+        assertEquals("I like pineapple", result);
     }
 
 }
